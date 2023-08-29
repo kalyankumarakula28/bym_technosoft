@@ -1,0 +1,31 @@
+.whyus-card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.whyus-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 300px;
+  height: 250px;
+  padding: 40px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  background-color: rgba(247, 237, 233, 1);
+}
+.whyus-card-heading {
+  font-size: 28px;
+  font-family: "Abhaya";
+  line-height: 1.4;
+  margin-bottom: 14px;
+}
+.whyus-card-info {
+  font-family: "Abhaya";
+  font-size: 18px;
+  line-height: 1.2;
+  text-align: center;
+}

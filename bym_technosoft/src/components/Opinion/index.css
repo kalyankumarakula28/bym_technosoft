@@ -1,0 +1,42 @@
+.quote-img {
+  width: 30px;
+}
+.slider-container {
+  display: flex;
+  flex-direction: row;
+  width: 850px;
+  margin-right: 20px;
+}
+.slider-inner-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.review-container {
+  text-align: start;
+  width: 100%;
+  max-width: 300px;
+  margin-left: 20px;
+}
+
+.reviewer-name {
+  color: #3d3d3b;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.2;
+  font-family: "Abhaya";
+  margin-bottom: 20px;
+}
+.review {
+  color: #3d3d3b;
+  font-size: 16px;
+  line-height: 1.5;
+
+  font-weight: 500;
+  font-family: "Abhaya";
+}
+.slick-arrow::before {
+  color: black;
+}

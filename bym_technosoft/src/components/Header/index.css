@@ -1,0 +1,212 @@
+.header-container {
+  background-image: url(https://image1.jdomni.in/banner/06062022/E8/F5/E2/9C2252ECCBB05F611E9BF87BE2_1654493728917.jpeg?output-format=webp);
+  background-size: cover;
+  width: 99vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header-upper-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px 16px;
+}
+
+.social-contact-container {
+  display: flex;
+  align-items: center;
+}
+
+.social-list-icons {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+.email-icon {
+  margin-top: 5px;
+}
+
+.social-icon {
+  margin-right: 8px;
+}
+
+.just-dial {
+  font-size: 18px;
+  line-height: 1.5px;
+  margin-top: 0px;
+  color: #3d3d3b;
+  font-weight: bold;
+}
+
+.social-wrapper {
+  margin-right: 26px;
+}
+
+.contact-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.contact-info-container {
+  display: flex;
+  justify-content: center;
+  margin-right: 15px;
+}
+
+.location-login-signup-container {
+  display: flex;
+}
+
+.contact-details,
+.location-name {
+  font-size: 16px;
+  font-weight: 700;
+  margin-left: 5px;
+  margin-top: 0px;
+}
+
+.location-container {
+  margin-right: 30px;
+}
+
+.location-list-container {
+  display: flex;
+  align-items: center;
+}
+
+.login-signup-list-container {
+  display: flex;
+  align-items: center;
+}
+
+.login-icon-container {
+  display: flex;
+  align-items: center;
+}
+
+.login {
+  margin-left: 8px;
+}
+
+.login-singup-list-item {
+  margin-right: 8px;
+}
+
+.header-secondary-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 14px;
+}
+
+.headers-items-part1-list-container,
+.headers-items-part3-list-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headers-items-part2-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 140px;
+  margin-right: 150px;
+}
+
+.hedaer-secondary-list-item {
+  font-size: 15px;
+  font-weight: 500;
+  margin-right: 16px;
+}
+
+.logo-name {
+  margin-top: 18px;
+}
+
+.header-secondary-logo-container {
+  padding: 14px 16px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  font-size: 18px;
+  background-color: #533d33;
+}
+
+.bym-logo-name {
+  font-size: 17px;
+  font-weight: 500;
+  margin-top: 8px;
+  color: #3d3d3b;
+}
+
+.dropdown-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.dropdown {
+  position: relative;
+  display: block;
+}
+
+.dropdown-content {
+  position: absolute;
+  display: none;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  margin-top: 20px;
+  z-index: 1;
+}
+
+.dropdown:hover + .dropdown-content {
+  display: block;
+}
+
+.template-content-container {
+  align-self: flex-end;
+  padding: 30px;
+  margin-top: 70px;
+}
+
+.template-content-inner-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.template-content-heading {
+  color: #3d3d3b;
+  line-height: 1.1;
+  margin-bottom: 16px;
+}
+
+.template-content-paragraph {
+  color: #3d3d3b;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.btn-element {
+  background-color: rgba(83, 61, 51, 1);
+  border: 0px;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 14px 28px;
+  border-radius: 30px;
+  border-width: 1px;
+}

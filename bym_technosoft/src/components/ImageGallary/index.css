@@ -1,0 +1,40 @@
+.gallery-arrow-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.gallery-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.arrow-button {
+  padding: 12px;
+  border-radius: 100px;
+  border: 0px;
+  background-color: #fff;
+  text-align: center;
+}
+.left-arrow {
+  position: absolute;
+  left: 48px;
+}
+.right-arrow {
+  position: absolute;
+  right: 52px;
+}
+
+.gallery_img {
+  width: 100%;
+  max-width: 410px;
+  margin-left: 14px;
+  margin-right: 14px;
+  margin-bottom: 18px;
+  border-radius: 20px;
+}
+
